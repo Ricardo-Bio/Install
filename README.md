@@ -17,3 +17,5 @@ _You **can** combine them_
 1. Item 3
    1. Item 3a
    1. Item 3b
+I think you should use an
+`<addr>` element here instead.
