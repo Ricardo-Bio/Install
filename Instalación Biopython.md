@@ -32,7 +32,7 @@ Para abrir un archivo específico:
 Para abrir mas de un archivo.
  
  `$ gedit archivo1 archivo2`
- # Instalacion de Seqmagick en Ubuntu 18.4
+ # Instalacion de Seqmagick
 ## Paso 1
 Abir la terminal y colocar el comando:
 
@@ -44,7 +44,7 @@ Al finalizar el proceso de instalacion en algunos casos puede marcar error enalg
 
 `sudo apt install "nombre del paquete".`
 
-# Instalacion de Bioperl en Ubuntu 18.4
+# Instalacion de Bioperl
 ## Paso 1
 Para instalar bioperl en Ubuntu ejecutar los siguientes comandos::
 
@@ -58,7 +58,7 @@ Se ejecuta el siguiente comando:
 
 `sudo apt-get install bioperl`
 ## Paso 3
-Se intala el modulo Bio::Seq con el siguiente comando:
+Se instala el modulo Bio::Seq con el siguiente comando:
 
 `cpan BIo::Seq`
 
