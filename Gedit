@@ -1,0 +1,17 @@
+# Instalación Gedit
+## Paso 1
+Abrimos una nueva terminal
+## Paso 2
+Desde la consola escribimos:
+ 
+ `$ sudo apt-get install gedit`
+
+## Paso 3
+Para abrir un archivo específico:
+ 
+ `$ nombre de archivo gedit`
+
+## Paso 4
+Para abrir mas de un archivo.
+ 
+ `$ gedit archivo1 archivo2`
