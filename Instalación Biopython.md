@@ -1,4 +1,4 @@
-#Instalación Biophyton para Linux
+# Instalación Biophyton para Linux
 ## Paso 1
 Abrimos una nueva terminal
 ## Paso 2
