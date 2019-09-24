@@ -123,7 +123,7 @@ Para estar seguro que la Instalación se realizó correctamente se usa el comand
 `$ tcsh`
 
 
-# Instalación de MUMmer3.2
+# Instalación de MUMmer
  ## Paso 1
 
  Es necesario descargar en archivo tar [][27b92a46]
