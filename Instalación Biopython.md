@@ -24,7 +24,9 @@ En el sistema de control ingresamos el siguiente comando:
 Cada usuario de git primero debe presentarse a git, ejecutando estos dos comandos
 
  `$ git config --global user.email "you@example.com"`
+ 
 `$ git config --global user.name "Tu nombre"`
+
 
 # Instalación Gedit
 ## Paso 1
@@ -76,7 +78,8 @@ Se instala el modulo Bio::Seq con el siguiente comando:
 # Instalación de FASTQC
 
 ## Paso 1
-Colocar el siguiente comando.
+Colocar el siguiente comando
+
 `$ sudo apt-get update`
 ## Paso 2
 Para la instalación se inicia colocando el siguiente comando en la consola:
@@ -94,14 +97,17 @@ Para la instalación se inicia colocando el siguiente comando en la consola:
 #  Instalación de TrimGalore
 ## Paso 1
 Es necesario tener ya instalados los paquetes anteriores:
-* Verifique que cutadapt esté instalado
+* Verifique que cutadapt esté instalado.
+
  ` $ cutadapt --version`
 
-* Verifique que FastQC está instalado
+* Verifique que FastQC está .
+
  ` $ fastqc -v`
 
 ## Paso 2
-Instalar Trim Galore
+Instalar Trim Galore.
+
 ` $ curl -fsSL https://github.com/FelixKrueger/TrimGalore/archive/0.6.0.tar.gz -o trim_galore.tar.gz tar xvzf trim_galore.tar.gz`
 
 Posteriormente para saber que ya lo tenemos instalado corremos el paquete con el siguiente comando:
@@ -111,7 +117,8 @@ Posteriormente para saber que ya lo tenemos instalado corremos el paquete con el
 
 # Instalación de SPAdes
 ## Paso 1
-Se instala con el comando:
+Se instala con el comando
+
 ` $ sudo apt install spades`
 
 
