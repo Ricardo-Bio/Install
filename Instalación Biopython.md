@@ -104,7 +104,6 @@ Es necesario tener ya instalados los paquetes anteriores:
 * Verifique que FastQC está .
 
  ` $ fastqc -v`
-
 ## Paso 2
 Instalar Trim Galore.
 
@@ -114,6 +113,15 @@ Posteriormente para saber que ya lo tenemos instalado corremos el paquete con el
 
 ` $TrimGalore-0.6.0/trim_galore`
 
+# Instalación de Trimmomatic
+## Paso 1
+Descargamos Trimmomatic_0.39 en :
+
+` $ http://www.usadellab.org/cms/?page=trimmomatic`
+## Paso 2
+Ejecutamos el siguiente comando para extraer:
+
+` $  unzip Trimmomatic-Src-0.38.zip`
 
 # Instalación de SPAdes
 ## Paso 1
@@ -153,4 +161,25 @@ Para estar seguro que la Instalación se realizó correctamente se usa el comand
   Descomprimir el archivo con el comando
 
 ` $ tar -xvzf MUMmer3.0.tar.gz `
+
+# Instalacion de gcc 4.7
+## Paso 1
+Para la instalación de gcc 4.8 ingresamos en la terminal los siguientes comandos en orden:
+
+` $ sudo apt-get install gcc-4.8`
+# Instalación de QUAST 5.0.2
+## Paso 1
+Descargamos QUAST 5.0.2
+` $ wget https://downloads.sourceforge.net/project/quast/quast-5.0.2.tar.gz 
+    tar -xzf quast-5.0.2.tar.gz `
+## Paso 2
+QUAST compila automáticamente todas sus subpartes cuando es necesario (en el primer uso). Por lo tanto, no se requiere instalación. Sin embargo, si desea precompilar todo y agregar quast.py a su PATH, puede elegir:
+
+Instalación básica (aproximadamente 120 MB):
+
+    ./setup.py install
+Instalación completa (aproximadamente 540 MB, además incluye herramientas para la detección de SV basadas en pares de lectura, que se utiliza para una detección de ensamblaje más precisa, y herramientas / datos para la detección del genoma de referencia en conjuntos de datos metagenómicos):
+
+    ./setup.py install_full
+
 
