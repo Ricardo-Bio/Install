@@ -18,9 +18,11 @@ Para actualizar una versión anterior de Biopython, intentamos con el comando:
  # Instalación de Git
 ##  Paso 1
 En el sistema de control ingresamos el siguiente comando:
+ 
  `$ sudo apt install git`
 ## Paso 2
-Cada usuario de git primero debe presentarse a git, ejecutando estos dos comandos:
+Cada usuario de git primero debe presentarse a git, ejecutando estos dos comandos
+
  `$ git config --global user.email "you@example.com"`
 `$ git config --global user.name "Tu nombre"`
 
