@@ -15,6 +15,15 @@ Una ves colocado el comando comenzara la instalacion.
 Para actualizar una versión anterior de Biopython, intentamos con el comando:
  
  `$ pip install biopython --upgrade`
+ # Instalación de Git
+##  Paso 1
+En el sistema de control ingresamos el siguiente comando:
+ `$ sudo apt install git`
+## Paso 2
+Cada usuario de git primero debe presentarse a git, ejecutando estos dos comandos:
+ `$ git config --global user.email "you@example.com"`
+`$ git config --global user.name "Tu nombre"`
+
 # Instalación Gedit
 ## Paso 1
 Abrimos una nueva terminal
